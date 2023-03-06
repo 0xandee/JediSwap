@@ -183,7 +183,7 @@ func initializer{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_check_ptr
         assert_not_zero(token0);
         assert_not_zero(token1);
     }
-    ERC20.initializer('JediSwap Pair', 'JEDI-P', 18);
+    ERC20.initializer('StarkSportSwap Pair', 'SSS-P', 18);
     _locked.write(0);
     _token0.write(token0);
     _token1.write(token1);
